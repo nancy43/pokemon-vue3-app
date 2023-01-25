@@ -27,7 +27,7 @@
               <p class="md:text-xl p-4 text-blue-600">{{ pokemon.name.toUpperCase() }}</p>
               <button @click="toggleShiny" type="button" class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Switch to Shiny</button>
             </div>
-            <div class="bg-gray-100 p-10">
+            <div class="bg-gray-100 p-10 flex flex-col items-center">
               <p class="md:text-xl text-center text-black">
                 <span class="text-blue-600 italic text-center">
                 ABILITIES:
@@ -65,8 +65,8 @@
                 </span> {{ pokemonTypesString }}
               </p>
             </div>
-            <div class="bg-gray-100 p-10">
-              <p class="md:text-xl text-center">
+            <div class="bg-gray-100 p-10 flex flex-col items-center">
+              <p class="md:text-xl text-center max-w-sm text-wrap">
                 <span class="italic text-center text-bold text-blue-600">
                   MOVES:
                 </span>
