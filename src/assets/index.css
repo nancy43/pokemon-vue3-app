@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.small-img {
+    width: 100px;
+    height: 150px;
+}
